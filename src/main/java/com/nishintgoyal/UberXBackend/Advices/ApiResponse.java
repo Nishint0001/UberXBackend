@@ -1,6 +1,9 @@
 package com.nishintgoyal.UberXBackend.Advices;
+import lombok.Data;
+
 import java.time.LocalDateTime;
 
+@Data
 public class ApiResponse<T>
 {
     private LocalDateTime timeStamp;
