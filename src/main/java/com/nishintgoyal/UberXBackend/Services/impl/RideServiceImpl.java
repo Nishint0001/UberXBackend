@@ -22,7 +22,6 @@ import java.util.List;
 public class RideServiceImpl implements RideService
 {
 
-
     @Override
     public RideEntity getRideById(Long rideId) {
         return null;

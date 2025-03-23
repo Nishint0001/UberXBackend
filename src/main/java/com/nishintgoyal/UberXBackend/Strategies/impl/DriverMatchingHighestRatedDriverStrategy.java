@@ -2,14 +2,21 @@ package com.nishintgoyal.UberXBackend.Strategies.impl;
 
 import com.nishintgoyal.UberXBackend.Entities.DriverEntity;
 import com.nishintgoyal.UberXBackend.Entities.RideRequestEntity;
+import com.nishintgoyal.UberXBackend.Repositories.DriverRepository;
 import com.nishintgoyal.UberXBackend.Strategies.DriverMatchingStrategy;
-
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import java.util.List;
 
+@Service
+@RequiredArgsConstructor
 public class DriverMatchingHighestRatedDriverStrategy implements DriverMatchingStrategy
 {
+    private final DriverRepository driverRepository;
+
     @Override
-    public List<DriverEntity> findMatchingDriver(RideRequestEntity rideRequestEntity) {
-        return List.of();
+    public List<DriverEntity> findMatchingDriver(RideRequestEntity rideRequestEntity)
+    {
+        return driverRepository.findTenNearbyTopRatedDrivers(rideRequestEntity.getPickUpLocation());
     }
 }

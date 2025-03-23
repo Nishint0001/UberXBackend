@@ -24,4 +24,6 @@ public interface RiderService
 
     RiderEntity createNewRider(UserEntity userEntity);
 
+    RiderEntity getCurrentRider();
+
 }

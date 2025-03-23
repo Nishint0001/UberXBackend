@@ -3,7 +3,9 @@ package com.nishintgoyal.UberXBackend.Entities;
 
 import com.nishintgoyal.UberXBackend.Entities.Enums.RoleEnum;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Set;
@@ -11,6 +13,8 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserEntity
 {
     @Id

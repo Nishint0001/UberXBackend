@@ -4,7 +4,6 @@ public class RunTimeConflictException extends RuntimeException
 {
     public RunTimeConflictException()
     {
-
     }
 
     public RunTimeConflictException(String message)

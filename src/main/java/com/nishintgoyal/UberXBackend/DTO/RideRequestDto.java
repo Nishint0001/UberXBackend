@@ -1,6 +1,5 @@
 package com.nishintgoyal.UberXBackend.DTO;
 
-
 import com.nishintgoyal.UberXBackend.Entities.Enums.PaymentMethodEnum;
 import com.nishintgoyal.UberXBackend.Entities.Enums.RideRequestStatusEnum;
 import lombok.AllArgsConstructor;

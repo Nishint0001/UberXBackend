@@ -6,16 +6,17 @@ import com.nishintgoyal.UberXBackend.Strategies.RideFareCalculationStrategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@RequiredArgsConstructor
 @Service
-public class RideFareDefaultFareCalculationStrategy implements RideFareCalculationStrategy
+@RequiredArgsConstructor
+public class RideFareSurgePricingFareCalculationStrategy implements RideFareCalculationStrategy
 {
     private final DistanceService distanceService;
+    private static final double SURGE_FACTOR=2;
 
     @Override
     public double calculateFare(RideRequestEntity rideRequest)
     {
-        double distance=distanceService.calculateDistance(rideRequest.getPickUpLocation(), rideRequest.getDropOffLocation());//calling api
-        return distance*Ride_Fare_Multiplier;
+        double distance=distanceService.calculateDistance(rideRequest.getPickUpLocation(), rideRequest.getDropOffLocation());
+        return distance*Ride_Fare_Multiplier*SURGE_FACTOR;
     }
 }

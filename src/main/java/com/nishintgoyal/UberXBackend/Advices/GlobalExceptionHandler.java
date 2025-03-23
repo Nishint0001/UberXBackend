@@ -24,14 +24,14 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(RunTimeConflictException.class)
-    public ResponseEntity<ApiResponse<?>> handleRuntimeConflictException(RunTimeConflictException exception) {
+    public ResponseEntity<ApiResponse<?>> handleRuntimeConflictException(RunTimeConflictException exception)
+    {
         ApiError apiError = ApiError.builder()
                 .status(HttpStatus.CONFLICT)
                 .message(exception.getMessage())
                 .build();
         return buildErrorResponseEntity(apiError);
     }
-
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ApiResponse<?>> handleInternalServerError(Exception exception) {

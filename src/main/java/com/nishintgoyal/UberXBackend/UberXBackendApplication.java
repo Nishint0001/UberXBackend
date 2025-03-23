@@ -9,5 +9,4 @@ public class UberXBackendApplication
 	{
 		SpringApplication.run(UberXBackendApplication.class, args);
 	}
-
 }

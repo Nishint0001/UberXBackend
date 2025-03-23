@@ -7,7 +7,6 @@ import com.nishintgoyal.UberXBackend.Repositories.DriverRepository;
 import com.nishintgoyal.UberXBackend.Strategies.DriverMatchingStrategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service

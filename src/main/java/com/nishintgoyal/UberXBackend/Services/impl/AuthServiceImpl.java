@@ -12,6 +12,7 @@ import com.nishintgoyal.UberXBackend.exceptions.RunTimeConflictException;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Set;
 
@@ -30,6 +31,7 @@ public class AuthServiceImpl implements AuthService
     }
 
     @Override
+    @Transactional
     public UserDto signup(SignUpDto signUpDto)
     {
         UserEntity entity=userRepository.findByEmail(signUpDto.getEmail()).orElse(null);
