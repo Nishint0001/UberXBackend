@@ -1,33 +1,25 @@
-# UberXBackend 🚗
+# UberXBackend 🚗  
 
-![Banner](https://via.placeholder.com/700x120.png?text=UberXBackend+In+Progress)
-*Building a fast, secure ride-booking backend*
+> **🚧 Under Active Development**  
+> *A Spring Boot backend for UberX, powering ride-hailing services with PostgreSQL. Stay tuned for updates!*  
 
-[![Status: In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)]()
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Java 17](https://img.shields.io/badge/Java-17-orange.svg)](https://www.java.com/)
+---
 
-**UberXBackend** is an **in-progress** ride-booking system using **Java**, **Spring Boot**, and **PostgreSQL**. Aiming for **100+ daily rides** with **RESTful APIs**, **JWT auth**, and **20% faster ride-matching**.
+### 📌 Key Features (Planned)  
+- **Ride Management API** (CRUD for trips/drivers/riders)  
+- **JWT Authentication** (Secure user/driver roles)  
+- **Real-Time Location Tracking** (WebSockets/Redis)  
+- **PostgreSQL Database** (Relational data modeling)  
+- **Scalable Microservices** (Spring Cloud)  
 
-## 🌟 Features (In Development)
+---
 
-- 🚀 **Rides**: Targeting 20% faster matching.
-- 🔒 **Auth**: 99.9% secure login with JWT.
-- ⚡ **APIs**: 30% faster responses.
+### 🛠️ Tech Stack  
+| **Area**       | **Tech**              |  
+|----------------|-----------------------|  
+| Backend        | Java 17, Spring Boot  |  
+| Database       | PostgreSQL            |  
+| API Docs       | Swagger/OpenAPI       |  
+| Deployment     | Docker + AWS EC2      |  
 
-## 🎥 Demo
-
-![Demo GIF](https://via.placeholder.com/400x250.png?text=Demo+In+Progress)
-*Replace with a GIF of current progress (e.g., Postman API test). Upload to GitHub (/docs/images/demo.gif) or Imgur.*
-
-## 🛠️ Tech
-
-- **Java 17**, **Spring Boot**
-- **PostgreSQL**
-- **JWT**, **Maven**
-
-## 🚀 Quick Start
-
-1. **Clone**:
-   ```bash
-   git clone https://github.com/your-username/UberXBackend.git
+---
