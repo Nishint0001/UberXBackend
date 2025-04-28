@@ -1,36 +1,33 @@
 # UberXBackend 🚗
 
-![UberXBackend Banner](https://via.placeholder.com/1000x200.png?text=UberXBackend+Banner)
-*Powering ride-booking with speed and security*
+![Banner](https://via.placeholder.com/700x120.png?text=UberXBackend+In+Progress)
+*Building a fast, secure ride-booking backend*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1-green.svg)](https://spring.io/projects/spring-boot)
+[![Status: In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)]()
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Java 17](https://img.shields.io/badge/Java-17-orange.svg)](https://www.java.com/)
 
-**UberXBackend** is a fast, secure ride-booking system built with **Java**, **Spring Boot**, and **PostgreSQL**. Handles **100+ daily rides** with **RESTful APIs**, **JWT authentication**, and **20% faster ride-matching**.
+**UberXBackend** is an **in-progress** ride-booking system using **Java**, **Spring Boot**, and **PostgreSQL**. Aiming for **100+ daily rides** with **RESTful APIs**, **JWT auth**, and **20% faster ride-matching**.
 
-## 🌟 Features
+## 🌟 Features (In Development)
 
-- 🚀 **Ride Management**: 20% more efficient ride-matching.
-- 🔒 **Secure Login**: 99.9% success with Spring Security & JWT.
-- ⚡ **Fast APIs**: 30% quicker responses.
-- 📊 **Optimized DB**: Scalable PostgreSQL queries.
+- 🚀 **Rides**: Targeting 20% faster matching.
+- 🔒 **Auth**: 99.9% secure login with JWT.
+- ⚡ **APIs**: 30% faster responses.
 
 ## 🎥 Demo
 
-![Demo GIF](https://via.placeholder.com/600x350.png?text=UberXBackend+Demo+GIF)
-*Replace with a GIF of the API in action (e.g., Postman or UI). Upload to GitHub (/docs/images/demo.gif) or Imgur.*
+![Demo GIF](https://via.placeholder.com/400x250.png?text=Demo+In+Progress)
+*Replace with a GIF of current progress (e.g., Postman API test). Upload to GitHub (/docs/images/demo.gif) or Imgur.*
 
-## 🛠️ Tech Stack
+## 🛠️ Tech
 
-- **Java 17**, **Spring Boot 3.1**
-- **PostgreSQL 14**
-- **Spring Security**, **JWT**
-- **Maven**, **Docker** (optional)
+- **Java 17**, **Spring Boot**
+- **PostgreSQL**
+- **JWT**, **Maven**
 
 ## 🚀 Quick Start
 
-1. **Clone Repo**:
+1. **Clone**:
    ```bash
    git clone https://github.com/your-username/UberXBackend.git
-   cd UberXBackend
